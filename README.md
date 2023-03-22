@@ -57,7 +57,7 @@ Y = dat$Y
 bl_out = bandlimited_density(W,A,Y,ngrid=500,num_fold=2,num_boot=2000,alpha=seq(0.01,0.99,by=0.01),b=2)
 ygrid = seq(-15,15,by=0.01)
 plot(ygrid,bl_out$onestep_fun(ygrid),xlab='y',ylab='Counterfactual Density Estimate',type='l')
-'''
+```
 
 
 The package also implements tests to determine whether the counterfactual distributions of the outcome under interventions that set A=1 and A=0 are the same.
@@ -88,4 +88,4 @@ Y = dat$Y
 density_test(W,A,Y,num_fold=2)
 # a test based on the maximum mean discrepancy between the counterfactual distributions under A=1 and A=0.
 mmd_test(W,A,Y,num_fold=2)
-'''
+```
