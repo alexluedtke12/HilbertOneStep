@@ -40,7 +40,7 @@ cv_out$which_best
 ygrid = seq(0.0025,0.9975,by=0.0025)
 plot(ygrid,cv_out$best_fun(ygrid),xlab='y',ylab='Counterfactual Density Estimate',type='l')
 ```
-
+<br>
 
 If it is known that the counterfactual density is bandlimited, a non-regularized one-step estimator of the counterfactual density is available. This estimator achieves a parametric rate of convergence, with mean integrated squared error converging to zero at a rate of 1/n.
 
@@ -58,7 +58,7 @@ bl_out = bandlimited_density(W,A,Y,ngrid=500,num_fold=2,num_boot=2000,alpha=seq(
 ygrid = seq(-15,15,by=0.01)
 plot(ygrid,bl_out$onestep_fun(ygrid),xlab='y',ylab='Counterfactual Density Estimate',type='l')
 ```
-
+<br>
 
 The package also implements tests to determine whether the counterfactual distributions of the outcome under interventions that set A=1 and A=0 are the same.
 
