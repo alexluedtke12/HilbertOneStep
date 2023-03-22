@@ -77,9 +77,9 @@ W = dat$W
 A = dat$A
 Y = dat$Y
 
-# a test based on a statistic that contrasts the counterfactual density functions under A=1 and A=0.
+# a test based on a weighted and standardized L2 statistic that contrasts the counterfactual density functions under A=1 and A=0
 density_test(W,A,Y,num_fold=2)
-# a test based on the maximum mean discrepancy between the counterfactual distributions under A=1 and A=0.
+# a test based on the maximum mean discrepancy between the counterfactual distributions under A=1 and A=0
 mmd_test(W,A,Y,num_fold=2)
 
 
@@ -89,8 +89,8 @@ W = dat$W
 A = dat$A
 Y = dat$Y
 
-# a test based on a statistic that contrasts the counterfactual density functions under A=1 and A=0.
+# a test based on a weighted and standardized L2 statistic that contrasts the counterfactual density functions under A=1 and A=0
 density_test(W,A,Y,num_fold=2)
-# a test based on the maximum mean discrepancy between the counterfactual distributions under A=1 and A=0.
+# a test based on the maximum mean discrepancy between the counterfactual distributions under A=1 and A=0
 mmd_test(W,A,Y,num_fold=2)
 ```
