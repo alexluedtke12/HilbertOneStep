@@ -1,7 +1,9 @@
+<!--
 ---
 title: "HilbertOneStep R Package"
 output: rmarkdown::github_document
 ---
+-->
 
 
 
