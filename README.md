@@ -28,6 +28,9 @@ devtools::install_github("alexluedtke12/HilbertOneStep")
 This package includes four key functions. The first two estimate the counterfactual density under treatment A=1, assuming there are no unmeasured confounders and the positivity assumption holds. The first function implements a regularized one-step estimator that is consistent within a nonparametric model under conditions. See Luedtke and Chung (2023) for rate of convergence guarantees for this estimator.
 
 ```r
+# load the package
+library(HilbertOneStep)
+
 # sample size
 n = 500
 
