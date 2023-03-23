@@ -11,7 +11,7 @@ output: rmarkdown::github_document
 
 The HilbertOneStep package implements one-step estimators of Hilbert-valued parameters, as evaluated in the simulation study from:
 
-"One-Step Estimation of Differentiable Hilbert-Valued Parameters" by A. Luedtke and I. Cheung [[link](https://arxiv.org/abs/XXXXXXXX)]
+"One-Step Estimation of Differentiable Hilbert-Valued Parameters" by A. Luedtke and I. Chung [[link](https://arxiv.org/abs/XXXXXXXX)]
 
 # Installation
 
